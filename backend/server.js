@@ -123,6 +123,47 @@ app.get('/stylist/sortByPrice', (req, res) => {
     })
 
 })
+
+app.get('/stylist/getAvailableDates', (req, res) => {
+    
+    const {  stylist_id} = req.query;
+    const getAvailableDates = "SELECT * FROM stylist_available WHERE stylist_id= ?";
+   
+    con.query(getAvailableDates,[stylist_id],(err, result) => {
+        if (err) {
+            console.log("not correct")
+            return res.send(err)
+        }
+        else {
+            
+            return res.json({
+                data: result
+            })
+        }
+    })
+
+})
+
+app.get('/stylist/getAvailableStylist', (req, res) => {
+    
+    const {  date,slot} = req.query;
+    const getAvailableStylist = "SELECT s.* FROM stylist s, stylist_available sa WHERE sa.date=? AND sa.stylist_id=s.idstylist AND sa.slot=?";
+   
+    con.query(getAvailableStylist,[date,slot],(err, result) => {
+        if (err) {
+            console.log("not correct")
+            return res.send(err)
+        }
+        else {
+            
+            return res.json({
+                data: result
+            })
+        }
+    })
+
+})
+
 app.get('/stylist', (req, res) => {
     con.query('SELECT * FROM stylist', (err, result) => {
         if (err) {
