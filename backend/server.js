@@ -144,6 +144,26 @@ app.get('/stylist/getAvailableDates', (req, res) => {
 
 })
 
+app.get('/stylist/getstylistById', (req, res) => {
+    
+    const {idstylist} = req.query;
+    const getstylistById = "SELECT * FROM stylist WHERE idstylist= ?";
+   
+    con.query(getstylistById,[idstylist],(err, result) => {
+        if (err) {
+            console.log("not correct")
+            return res.send(err)
+        }
+        else {
+            
+            return res.json({
+                data: result
+            })
+        }
+    })
+
+})
+
 app.get('/stylist/getAvailableStylist', (req, res) => {
     
     const {  date,slot} = req.query;
