@@ -1,0 +1,42 @@
+/* .background{
+    background-image: url('../../imgs/4.jpg')
+} */
+
+.body{
+  background: #323c41;
+  background-image: url('3.jpg');
+}
+
+
+
+#blog-card{
+ 
+  height: 300px;
+  width: 450px;
+  left: 200px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px rgba(11, 13, 24, 0.6);
+  text-align: center;
+  opacity: 0.5;
+
+}
+
+
+#blog-card:hover {
+  background-color: rgba(44, 26, 26, 0.5) ;
+  opacity: 0.9;
+  
+ }
+ .cardheader{
+ 
+   top: 50px;
+   font-size: 50px;
+ }
+
+ .cardheader:hover{
+ 
+ color:#ffffff;
+ border: #ffffff;
+ border-width: 50px
+}

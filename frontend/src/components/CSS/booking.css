@@ -1,0 +1,44 @@
+.booking{
+
+    background: rgba(11, 13, 24, 0.6);
+    color: #fff;
+    font-size: 28px;
+    margin:0 auto;
+    padding: 15px 20px;
+    width: 400px;
+    align-content: center;
+    cursor: pointer; }
+    .booking:hover {
+      background-color: #009999; }
+
+
+
+      #body1 {
+        background-image: url('6.jpg');
+        height: 100%; 
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .formDiv1{
+    
+      padding: 60px;
+      display: -ms-flex;
+       display: -webkit-flex;
+        display: flex;
+  }
+  .formDiv1>div{
+      flex: 1;
+  }
+
+  .card1{
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.center{
+  margin:0 auto;
+}

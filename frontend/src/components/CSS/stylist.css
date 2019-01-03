@@ -1,0 +1,38 @@
+.details{
+    color: #009999
+}
+.rating{
+    font-size: 25px
+}
+.starRating{
+    font-size: 50px
+}
+.ratingbtn{
+    background:#009999 ;
+    color: #fff;
+    font-size: 18px;
+    height: 45px;
+    margin-top: 23px;
+    padding: 15px 20px;
+    width: 250px;
+    padding: 0px;
+    align-content: center;
+    cursor: pointer; }
+    .ratingbtn:hover {
+      background-color:rgba(11, 13, 24, 0.6) ;
+     }
+
+     .nearbyStylist{
+        background:#009999 ;
+        color: #fff;
+        font-size: 18px;
+        height: 45px;
+        margin-top: 23px;
+        padding: 15px 20px;
+        width: 250px;
+        padding: 0px;
+        align-content: center;
+        cursor: pointer; }
+        .nearbyStylist:hover {
+          background-color:rgba(11, 13, 24, 0.6) ;
+         }

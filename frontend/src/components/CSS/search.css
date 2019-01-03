@@ -1,0 +1,125 @@
+#card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  #card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  #container {
+    padding: 2px 16px;
+  }
+  .name{
+      color:black;
+     
+  }
+  .price{
+      color: grey;
+  }
+  .rating{
+      font-size: 25px
+  }
+  .nav{
+
+  }
+  .search{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .price{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .pricebtn{
+    background-color: #009999; 
+    color: black; 
+    border: 2px solid #009999;
+  }
+  
+.pricebtn:hover {
+    background-color: #009999;
+    color: white;
+  }
+  
+  .ratingsort{
+    background:#009999 ;
+    color: #fff;
+    font-size: 18px;
+    height: 45px;
+    margin-top: 23px;
+    padding: 15px 20px;
+    width: 250px;
+    padding: 0px;
+    align-content: center;
+    cursor: pointer; }
+    .ratingsort:hover {
+      background-color:rgba(11, 13, 24, 0.6) ;
+     }
+
+    .nearbyStylist{
+      background:#0c0e0e ;
+      color: #fff;
+      font-size: 18px;
+      height: 45px;
+      margin-top: 23px;
+      padding: 15px 20px;
+      width: 350px;
+      padding: 0px;
+      align-content: center;
+      cursor: pointer; }
+      .nearbyStylist:hover {
+        background-color:rgba(11, 13, 24, 0.6) ;
+       }
+  
+
+     .pricesort{
+      background:#009999 ;
+      color: #fff;
+      font-size: 18px;
+      height: 45px;
+      margin-top: 23px;
+      padding: 15px 20px;
+      width: 250px;
+      padding: 0px;
+      align-content: center;
+      cursor: pointer; }
+      .nearbyStylist:hover {
+        background-color:rgba(11, 13, 24, 0.6) ;
+       }
+
+       .blog-div{
+        overflow: hidden;
+        border-radius: 20px;
+        box-shadow: 4px 4px 20px rgba(11, 13, 24, 0.6);
+        text-align: center;
+        opacity: 0.5;
+        margin: auto;
+        padding: 10px;
+      
+      }
+
+      .blog-div:hover {
+        background-color: rgba(44, 26, 26, 0.5) ;
+        opacity: 0.9;
+        left: 200px;
+        padding: 10px;
+        width: 320px
+        
+        
+       }
+      
+      #blog-div .hiddentext{
+        position: relative;
+        visibility: hidden;
+       }
+       #blog-div:hover .hiddentext{
+         visibility: visible;
+    
+       }
+
+       .layout{
+         background-color: #d9dddd;
+       }
+       

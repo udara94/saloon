@@ -1,0 +1,42 @@
+{
+  "name": "saloon",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.11.2",
+    "axios": "^0.18.0",
+    "chai": "^4.2.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jquery": "^3.3.1",
+    "mocha": "^5.2.0",
+    "moment": "^2.23.0",
+    "react": "^16.7.0",
+    "react-anime": "^2.2.0",
+    "react-big-calendar": "^0.20.2",
+    "react-bootstrap": "^0.32.4",
+    "react-browser-router": "^2.1.2",
+    "react-dom": "^16.7.0",
+    "react-geolocated": "^2.4.0",
+    "react-geolocation": "^1.0.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-sticky": "^6.0.3",
+    "shallow": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
